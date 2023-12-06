@@ -47,12 +47,7 @@
 .cursor2dark{display: none;}
 
 
-.height-sm{
-	height: 200px !important;
-}
-.transform-sm-origin{
-	transform-origin: 0 100px !important;
-}
+
 
 .justify-sm-end{
 	display:flex !important;
@@ -370,14 +365,6 @@
 .cursordark{display: none;}
 
 .cursor2dark{display: none;}
-
-.height-md{
-	height: 200px !important;
-}
-.transform-md-origin{
-	transform-origin: 0 100px !important;
-}
-
 
 
 .d-md-none{display:none;transition: 0.3s linear;}
@@ -848,6 +835,6 @@
 	
 	
 	
-
+	
 	
 }

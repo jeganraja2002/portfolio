@@ -93,21 +93,9 @@
 				dark.classList.remove("d-lg-none")
 
 
-				const line = document.querySelector(".in-card-html")
-				const line_css = document.querySelector(".in-card-css")
-				const line_js = document.querySelector(".in-card-js")
-				const line_bs = document.querySelector(".in-card-bs")
-				const line_react = document.querySelector(".in-card-react")
-
 		function darklight() {
 				
 				count++
-				line.innerHTML=""
-				line_css.innerHTML=""
-				line_js.innerHTML=""
-				line_bs.innerHTML=""
-				line_react.innerHTML=""
-				Skill()
 
 				body_light.classList.remove("body")
 
@@ -229,13 +217,6 @@
 		function darklight1() {
 				count=0
 
-				line.innerHTML=""
-				line_css.innerHTML=""
-				line_js.innerHTML=""
-				line_bs.innerHTML=""
-				line_react.innerHTML=""
-				Skill()
-				
 				body_light.classList.add("body")
 
 				colors.classList.remove("borders")
@@ -342,61 +323,6 @@
 				light.classList.remove("d-lg-none")
 				dark.classList.add("d-lg-none")
 		}
-
-
-		// .........................my skill........................................
-
-
-
-function Skill() {
-	
-	line.innerHTML=`<div><h3>HTML</h3><h3>50 %</h3></div>`
-	line_css.innerHTML=`<div><h3>CSS</h3><h3>70 %</h3></div>`
-	line_js.innerHTML=`<div><h3>JS</h3><h3>65 %</h3></div>`
-	line_bs.innerHTML=`<div><h3>Bootstrap</h3><h3>70 %</h3></div>`
-	line_react.innerHTML=`<div><h3>React Js</h3><h3>60 %</h3></div>`
-
-		let a = 0
-		let stop = setInterval(()=>{
-			a++
-			line.innerHTML+=`<div class="line transform-sm-origin transform-md-origin ${count==0?"borders":"border"} " style="transform:rotate(${3.6*a}deg)"></div>`
-			if(a===100) clearInterval(stop)
-		})
-
-		let b = 0
-		let stop_css = setInterval(()=>{
-			b++
-			line_css.innerHTML+=`<div class="line-css transform-sm-origin transform-md-origin ${count==0?"borders":"border"}" style="transform:rotate(${3.6*b}deg)"></div>`
-			if(b===100) clearInterval(stop_css)
-		})
-
-		let c = 0
-		let stop_js = setInterval(()=>{
-			c++
-			line_js.innerHTML+=`<div class="line-js transform-sm-origin transform-md-origin  ${count==0?"borders":"border"} " style="transform:rotate(${3.6*c}deg)"></div>`
-			if(c===100) clearInterval(stop_js)
-		})
-
-		let d = 0
-		let stop_bs = setInterval(()=>{
-			d++
-			line_bs.innerHTML+=`<div class="line-bs transform-sm-origin transform-md-origin ${count==0?"borders":"border"} "style="transform:rotate(${3.6*d}deg)"></div>`
-			if(d===100) clearInterval(stop_bs)
-		})
-
-	let e = 0
-	let stop_react = setInterval(()=>{
-		e++
-		line_react.innerHTML+=`<div class="line-react transform-sm-origin transform-md-origin ${count==0?"borders":"border"} " style="transform:rotate(${3.6*e}deg)"></div>`
-		if(e===100) clearInterval(stop_react)
-	})
-
-}
-
-Skill()
-
-
-		// ..........................cursor......................
 
 		var cursor=document.querySelector("#cursor")
 		var cursor2=document.querySelector("#cursor2")
