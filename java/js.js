@@ -1,10 +1,4 @@
 
-	const loading = document.querySelector(".loader-bg")
-
-	window.addEventListener("load",()=>{
-		loading.classList.add("loader-anime")
-	})
-
 				var menu=document.getElementById("dropmenu")
 				var button1=document.getElementById("button1")
 				var button2=document.getElementById("button2")
