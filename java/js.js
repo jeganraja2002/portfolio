@@ -393,3 +393,13 @@
 
 	})
 
+		 		let scroll=window.pageYOffset
+		 		
+		 		if (scroll>150) {
+		 			arrow.classList.remove("up")
+		 			arrow.classList.add("up1")
+		 		} 
+		 		else {
+		 			arrow.classList.add("up")
+		 			arrow.classList.remove("up1")	
+		 		}

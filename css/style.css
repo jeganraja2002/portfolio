@@ -2,16 +2,21 @@
 	padding:0;
 	box-sizing:border-box;
 	font-family: 'Pridi', serif;
+	user-select: none;
 	}
 
 
 ::-webkit-scrollbar{
+	-webkit-background-color: transparent;
+	-webkit-width: 5px;
 	background-color: transparent;
 	width: 5px;
 }
 
 
 ::-webkit-scrollbar-thumb{
+	-webkit-background:linear-gradient(transparent,#2fbf71,transparent);
+	-webkit-border-radius: 5px;
 	background:linear-gradient(transparent,#2fbf71,transparent);
 	border-radius: 5px;
 	}
