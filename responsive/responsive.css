@@ -72,7 +72,7 @@
 
 .left-sm::after{
 			position:absolute;
-			top:-160px;
+			top:-163px;
 			left:-60px;
 			content:"";
 			background-color:#2fbf71;
