@@ -72,12 +72,12 @@
 
 .left-sm::after{
 			position:absolute;
-			top:-78px;
+			top:-160px;
 			left:-60px;
 			content:"";
 			background-color:#2fbf71;
 			width:150%;
-			height:100%;
+			height:150%;
 			border-radius:50%;
 			z-index:-2;
 		}
@@ -344,7 +344,7 @@
 	
 	
 	
-@media(min-width:768px) and (max-width:992px){
+@media(min-width:768px) and (max-width:1024px){
 	
 .body_after{
 					position:fixed;
@@ -467,12 +467,12 @@
 
 .left-md::after{
 			position:absolute;
-			top:-95px;
+			top:-250px;
 			left:-100px;
 			content:"";
 			background-color:#2fbf71;
 			width:150%;
-			height:100%;
+			height:150%;
 			border-radius:50%;
 			z-index:-2;
 			}
@@ -829,12 +829,6 @@
 .cols-md-12{	
 	width:100%;
 	}
-	
-	
-	
-	
-	
-	
 	
 	
 }

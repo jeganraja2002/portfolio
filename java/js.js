@@ -329,7 +329,9 @@
 
 
     document.addEventListener("mousemove",function(e){
-		
+			  cursor.classList.remove('d-none')
+			  cursor2.classList.remove('d-none')
+			  
 		      cursor.style.left= e.clientX + "px"
 		      cursor.style.top= e.clientY + "px"
 		      cursor2.style.left= e.clientX + "px"
