@@ -72,8 +72,8 @@
 
 .left-sm::after{
 			position:absolute;
-			top:-163px;
-			left:-60px;
+			top:-63%;
+			left:-25%;
 			content:"";
 			background-color:#2fbf71;
 			width:150%;
@@ -467,8 +467,8 @@
 
 .left-md::after{
 			position:absolute;
-			top:-250px;
-			left:-100px;
+			top:-63%;
+			left:-25%;
 			content:"";
 			background-color:#2fbf71;
 			width:150%;

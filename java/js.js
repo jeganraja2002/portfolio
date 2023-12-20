@@ -346,23 +346,16 @@
 		 	let widthAnimation = document.querySelector("#AnimationWidth")
 		 	let jegan = widthAnimation.offsetWidth
 
-    		if (count==0) {
-	    		var e=document.createElement("div")
-	    			e.setAttribute("class","circle")
-	    			apend.appendChild(e)
-    		}
+    		let e=document.createElement("div")
+    			e.setAttribute("class",`bi bi-star-fill ${count==0 ? "circle" : "circles"}`)
+    			apend.appendChild(e)
+    		let f1 = jegan>=768 && jegan<=1024 ? 15 : 10
+    		let f2 = jegan>=768 && jegan<=1024 ? 30 : 20
+    		let width=Math.floor(Math.random()*(f2-f1)+f1)
+    		let left=Math.random()*jegan
+    		let dur=Math.random()*3
 
-    		else if( count==1){
-    				var e=document.createElement("div")
-	    			e.setAttribute("class","circles")
-	    			apend.appendChild(e)
-    		}
-
-    		var width=Math.random()*12
-    		var left=Math.random()*jegan
-    		var dur=Math.random()*3
-
-    			e.style.width=2+width+"px"
+    			e.style.fontSize=2+width+"px"
     			e.style.left=left+ "px"
     			e.style.animationDuration=2+dur+"s"
 		
