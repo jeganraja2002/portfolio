@@ -345,10 +345,16 @@
 		 	
 		 	let widthAnimation = document.querySelector("#AnimationWidth")
 		 	let jegan = widthAnimation.offsetWidth
+			
+			const arr = ["circle","circle1"]
+			const arr1 = ["circles","circles1"]
+		 	let rotateCircle = Math.floor(Math.random()*arr.length)
+		 	let rotateCircle1 = Math.floor(Math.random()*arr1.length)
 
     		let e=document.createElement("div")
-    			e.setAttribute("class",`bi bi-star-fill ${count==0 ? "circle" : "circles"}`)
+    			e.setAttribute("class",`bi bi-star-fill ${count==0 ? arr[rotateCircle] : arr1[rotateCircle1]}`)
     			apend.appendChild(e)
+
     		let f1 = jegan>=768 && jegan<=1024 ? 15 : 10
     		let f2 = jegan>=768 && jegan<=1024 ? 30 : 20
     		let width=Math.floor(Math.random()*(f2-f1)+f1)
