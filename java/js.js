@@ -116,6 +116,10 @@
 				colors25.classList.add("borders")
 				colors27.classList.add("borders")
 				colors29.classList.add("borders")
+				colors31.classList.add("borders")
+				colors33.classList.add("borders")
+
+				
 				colors19.classList.add("project-watch1")
 				colors20.classList.add("project-watch1")
 				colors21.classList.add("project-watch1")
@@ -124,6 +128,8 @@
 				colors26.classList.add("project-watch1")
 				colors28.classList.add("project-watch1")
 				colors30.classList.add("project-watch1")
+				colors32.classList.add("project-watch1")
+				colors34.classList.add("project-watch1")
 
 
 				// img...........
@@ -171,6 +177,8 @@
 				colors25.classList.remove("border")
 				colors27.classList.remove("border")
 				colors29.classList.remove("border")
+				colors31.classList.remove("border")
+				colors33.classList.remove("border")
 
 
 
@@ -182,6 +190,8 @@
 				colors26.classList.remove("project-watch")
 				colors28.classList.remove("project-watch")
 				colors30.classList.remove("project-watch")
+				colors32.classList.remove("project-watch")
+				colors34.classList.remove("project-watch")
 
 
 					//anchor...
@@ -237,7 +247,10 @@
 				colors25.classList.remove("borders")
 				colors27.classList.remove("borders")
 				colors29.classList.remove("borders")
+				colors31.classList.remove("borders")
+				colors3.classList.remove("borders")
 				
+
 				colors19.classList.remove("project-watch1")
 				colors20.classList.remove("project-watch1")
 				colors21.classList.remove("project-watch1")
@@ -246,6 +259,8 @@
 				colors26.classList.remove("project-watch1")
 				colors28.classList.remove("project-watch1")
 				colors30.classList.remove("project-watch1")
+				colors32.classList.remove("project-watch1")
+				colors34.classList.remove("project-watch1")
 
 				// img..........
 
@@ -288,6 +303,8 @@
 				colors25.classList.add("border")
 				colors27.classList.add("border")
 				colors29.classList.add("border")
+				colors31.classList.add("border")
+				colors33.classList.add("border")
 
 				colors19.classList.add("project-watch")
 				colors20.classList.add("project-watch")
@@ -297,6 +314,8 @@
 				colors26.classList.add("project-watch")
 				colors28.classList.add("project-watch")
 				colors30.classList.add("project-watch")
+				colors32.classList.add("project-watch")
+				colors34.classList.add("project-watch")
 
 
 						// anchor.....
