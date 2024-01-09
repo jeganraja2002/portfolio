@@ -118,6 +118,7 @@
 				colors29.classList.add("borders")
 				colors31.classList.add("borders")
 				colors33.classList.add("borders")
+				colors35.classList.add("borders")
 
 				
 				colors19.classList.add("project-watch1")
@@ -130,6 +131,7 @@
 				colors30.classList.add("project-watch1")
 				colors32.classList.add("project-watch1")
 				colors34.classList.add("project-watch1")
+				colors36.classList.add("project-watch1")
 
 
 				// img...........
@@ -179,6 +181,7 @@
 				colors29.classList.remove("border")
 				colors31.classList.remove("border")
 				colors33.classList.remove("border")
+				colors35.classList.remove("border")
 
 
 
@@ -192,6 +195,7 @@
 				colors30.classList.remove("project-watch")
 				colors32.classList.remove("project-watch")
 				colors34.classList.remove("project-watch")
+				colors36.classList.remove("project-watch")
 
 
 					//anchor...
@@ -261,6 +265,7 @@
 				colors30.classList.remove("project-watch1")
 				colors32.classList.remove("project-watch1")
 				colors34.classList.remove("project-watch1")
+				colors36.classList.remove("project-watch1")
 
 				// img..........
 
@@ -305,6 +310,7 @@
 				colors29.classList.add("border")
 				colors31.classList.add("border")
 				colors33.classList.add("border")
+				colors35.classList.add("border")
 
 				colors19.classList.add("project-watch")
 				colors20.classList.add("project-watch")
@@ -316,6 +322,7 @@
 				colors30.classList.add("project-watch")
 				colors32.classList.add("project-watch")
 				colors34.classList.add("project-watch")
+				colors36.classList.add("project-watch")
 
 
 						// anchor.....
