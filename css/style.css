@@ -332,48 +332,83 @@ html{
 .icons-justify {
 				justify-content:space-evenly;
 				align-items:center;
-				padding-top:20px;
+				margin-top:35px;
 				}
 
-.contact-2-icons1 a{
-			display:inline-block;
-			border-radius:50px;
-			height:50px;
-			width:50px;
-			text-align:center;
-			line-height:80px;
-			}
-
-.contact-2-icons2 a{
-			display:inline-block;
-			border-radius:50px;
-			height:50px;
-			width:50px;
-			text-align:center;
-			line-height:75px;
-			}
 
 
 .animation_icon,.animation_icon1{
-			background-color:#ffffff1a;
-			border-radius: 50px;
-			transition: 0.3s linear;
+			display:inline-block;
+			position: relative;
+			border-radius:50px;
+			height:50px;
+			width:50px;
+			text-align:center;
+			line-height:50px;
+			color: #2fbf71;
+			transition: all 0.3s;
+			font-size: 25px;
 		}
 
+.animation_icon::after , .animation_icon1::after{
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid #2fbf71;
+	inset: 0;
+	content: "";
+	animation: round 2s linear infinite;
+}
+.animation_icon::before , .animation_icon1::before{
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid #2fbf71;
+	inset: 0;
+	content: "";
+	animation: round 2s linear infinite;
+	animation-delay: 1s;
+}
+
+
 .animation_iconr,.animation_icon1r{
-			background-color:#2fbf713b;
 			border-radius: 50px;
-			color: white;
-			transition: 0.3s linear;
-			}
-
-
-.animeicons1,.animeicons2{
-			height: 50px;
+			position: relative;
 			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			display: inline-block;
+			color: black;
+			font-size: 25px;
 			transition: 0.3s linear;
-			}
+			animation: calling2 3s linear infinite;
+			transition: all 0.3s;
+		}
 
+.animation_iconr::before , .animation_icon1r::before {
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid gray !important;
+	inset: 0;
+	content: "";
+	animation: round 2s linear infinite;
+}
+
+.animation_iconr::after , .animation_icon1r::after {
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid gray !important;
+	inset: 0;
+	content: "";
+	animation: round 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes round {
+	0%{opacity: 0;transform: scale(1);}
+	50%{opacity: 1;}
+	60%{opacity: 1;}
+	100%{opacity: 0;transform: scale(1.5);}
+}
 
 
 
@@ -1380,18 +1415,66 @@ box-shadow: inset 1px 0px #2fbf71 , inset -1px 0px #2fbf71;
 			border-radius: 600px;
 			}
 
-			
-.fotter-bg a{
+
+.git a , .git1 a{
+			position: relative;
 			display: inline-block;
-			border-radius: 600px;
+			border-radius: 50%;
 			transition: all 0.5s linear;		
-			}
+			width: 50px;	
+			height: 50px;
+			line-height: 55px;
+		}
+.git1 a{
+			display: inline-block;
+			border-radius: 50%;
+			transition: all 0.5s linear;		
+			width: 50px;	
+			height: 50px;
+			line-height: 55px;
+		}
 
 
-.fotter-bg a:hover{
-			filter: drop-shadow(0px 0px 10px #2fbf71) drop-shadow(0px 0px 20px #2fbf71);
-			transition: all 0.5s linear;
-			}
+.git a::after{
+	position: absolute;
+	content: "";
+	inset: 0;
+	border: 1px solid #2fbf71;
+	border-radius: 50%;
+	animation: round 2s linear infinite;
+}
+.git a::before{
+	position: absolute;
+	content: "";
+	inset: 0;
+	border: 1px solid #2fbf71;
+	border-radius: 50%;
+	animation: round 2s linear infinite;
+	animation-delay: 1s;
+}
+
+.git1 a::after{
+	position: absolute;
+	content: "";
+	inset: 0;
+	border: 1px solid gray;
+	border-radius: 50%;
+	animation: round 2s linear infinite;
+}
+.git1 a::before{
+	position: absolute;
+	content: "";
+	inset: 0;
+	border: 1px solid gray;
+	border-radius: 50%;
+	animation: round 2s linear infinite;
+	animation-delay: 1s;
+}
+
+
+.rights{
+	margin-top: 30px;
+}
 
 
 .fotter-bg span{

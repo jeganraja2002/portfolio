@@ -105,7 +105,7 @@
 				colors4.classList.add("borders")
 				colors5.classList.add("borders")
 				colors6.classList.add("borders")
-				colors8.classList.add("borders")
+				colors8.classList.add("borders","git1")
 				colors9.classList.add("borders")
 				colors14.classList.add("borders")
 				colors15.classList.add("borders")
@@ -164,7 +164,7 @@
 				colors4.classList.remove("border")
 				colors5.classList.remove("border")
 				colors6.classList.remove("border")
-				colors8.classList.remove("border")
+				colors8.classList.remove("border","git")
 				colors9.classList.remove("border")
 
 
@@ -239,7 +239,7 @@
 				colors4.classList.remove("borders")
 				colors5.classList.remove("borders")
 				colors6.classList.remove("borders")
-				colors8.classList.remove("borders")
+				colors8.classList.remove("borders" , "git1")
 				colors9.classList.remove("borders")
 				colors14.classList.remove("borders")
 
@@ -297,7 +297,7 @@
 				colors4.classList.add("border")
 				colors5.classList.add("border")
 				colors6.classList.add("border")
-				colors8.classList.add("border")
+				colors8.classList.add("border" , "git")
 				colors9.classList.add("border")
 				colors14.classList.add("border")
 				colors15.classList.add("border")

@@ -519,37 +519,18 @@
 	}
 
 
-
-.contact-2-icons1-md a{
-			display:inline-block;
-			border-radius:50px;
-			height:80px;
-			width:80px;
-			text-align:center;
-			line-height:80px;
-			background-color:#ffffff1a;
-	
-			}
-
-.contact-2-icons2-md a{
-			display:inline-block;
-			border-radius:50px;
-			height:80px;
-			width:80px;
-			text-align:center;
-			line-height:75px;
-			background-color:#ffffff1a;
-			}
-
-
 .animeicons1-md{
 				height: 80px;
+				line-height: 80px;	
 				width: 80px;
-				}
+				font-size: 40px;	
+			}
 
 .animeicons2-md{
 				height: 80px;
 				width: 80px;
+				font-size: 40px;
+				line-height: 80px;	
 				}
 
 
