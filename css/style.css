@@ -922,7 +922,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 59px;
+  bottom: -5px;
   left: 0px;
   width: 55%;
   height: 5px;
@@ -932,7 +932,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 56px;
+  bottom: -8px;
   left: 55%;
   width: 12px;
   height: 12px;
@@ -944,7 +944,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 59px;
+  bottom: -5px;
   left: 0px;
   width: 70%;
   height: 5px;
@@ -954,7 +954,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 56px;
+  bottom: -8px;
   left: 70%;
   width: 12px;
   height: 12px;
@@ -966,7 +966,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 59px;
+  bottom: -5px;
   left: 0px;
   width: 60%;
   height: 5px;
@@ -976,7 +976,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 56px;
+  bottom: -8px;
   left: 60%;
   width: 12px;
   height: 12px;
@@ -988,7 +988,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 59px;
+  bottom: -5px;
   left: 0px;
   width: 60%;
   height: 5px;
@@ -998,7 +998,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 56px;
+  bottom: -8px;
   left: 60%;
   width: 12px;
   height: 12px;
@@ -1010,7 +1010,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 59px;
+  bottom: -5px;
   left: 0px;
   width: 70%;
   height: 5px;
@@ -1020,7 +1020,7 @@ html {
   position: absolute;
   content: "";
   background-color: #2fbf71;
-  top: 56px;
+  bottom: -8px;
   left: 70%;
   width: 12px;
   height: 12px;

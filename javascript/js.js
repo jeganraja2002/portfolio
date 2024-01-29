@@ -111,6 +111,7 @@ function darklight() {
   colors31.classList.add("borders");
   colors33.classList.add("borders");
   colors35.classList.add("borders");
+  colors37.classList.add("borders");
 
   colors19.classList.add("project-watch1");
   colors20.classList.add("project-watch1");
@@ -123,6 +124,7 @@ function darklight() {
   colors32.classList.add("project-watch1");
   colors34.classList.add("project-watch1");
   colors36.classList.add("project-watch1");
+  colors38.classList.add("project-watch1");
 
   // img...........
 
@@ -167,6 +169,7 @@ function darklight() {
   colors31.classList.remove("border");
   colors33.classList.remove("border");
   colors35.classList.remove("border");
+  colors37.classList.remove("border");
 
   colors19.classList.remove("project-watch");
   colors20.classList.remove("project-watch");
@@ -179,6 +182,7 @@ function darklight() {
   colors32.classList.remove("project-watch");
   colors34.classList.remove("project-watch");
   colors36.classList.remove("project-watch");
+  colors38.classList.remove("project-watch");
 
   //anchor...
 
@@ -241,6 +245,7 @@ function darklight1() {
   colors32.classList.remove("project-watch1");
   colors34.classList.remove("project-watch1");
   colors36.classList.remove("project-watch1");
+  colors38.classList.remove("project-watch1");
 
   // img..........
 
@@ -283,6 +288,7 @@ function darklight1() {
   colors31.classList.add("border");
   colors33.classList.add("border");
   colors35.classList.add("border");
+  colors37.classList.add("border");
 
   colors19.classList.add("project-watch");
   colors20.classList.add("project-watch");
@@ -295,6 +301,7 @@ function darklight1() {
   colors32.classList.add("project-watch");
   colors34.classList.add("project-watch");
   colors36.classList.add("project-watch");
+  colors38.classList.add("project-watch");
 
   // anchor.....
 
