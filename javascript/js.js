@@ -55,6 +55,7 @@ anchor4.addEventListener("click", () => {
 });
 
 function drop() {
+  window.navigator.vibrate([10]);
   menu.classList.remove("d-sms-none", "d-mdm-none");
   menu.classList.remove("d-sm-none", "d-md-none");
   menu.classList.add("d-sms-block", "d-mdm-block");
@@ -64,6 +65,7 @@ function drop() {
 }
 
 function minin() {
+  window.navigator.vibrate([10]);
   button1.classList.add("d-lg-none");
   button2.classList.remove("d-lg-none");
   menu.classList.remove("d-sms-block", "d-mdm-block");
@@ -87,6 +89,7 @@ gif.style.height = colors6.offsetHeight + "px";
 
 function darklight() {
   count++;
+  window.navigator.vibrate([10]);
 
   body_light.classList.remove("body");
   body_light.classList.add("body2");
@@ -209,6 +212,7 @@ function darklight() {
 
 function darklight1() {
   count = 0;
+  window.navigator.vibrate([10]);
 
   body_light.classList.add("body");
   body_light.classList.remove("body2");
