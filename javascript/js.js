@@ -148,7 +148,6 @@ function darklight() {
   // cursor......
 
   cursor.classList.add("cursordark");
-  cursor2.classList.add("cursor2dark");
 
   colors.classList.remove("border");
   colors1.classList.remove("border");
@@ -202,7 +201,6 @@ function darklight() {
   // cursor......
 
   cursor.classList.remove("cursor");
-  cursor2.classList.remove("cursor2");
 
   // input color....
 
@@ -270,7 +268,6 @@ function darklight1() {
   // cursor....
 
   cursor.classList.remove("cursordark");
-  cursor2.classList.remove("cursor2dark");
 
   colors.classList.add("border");
   colors1.classList.add("border");
@@ -322,7 +319,6 @@ function darklight1() {
   // cursor......
 
   cursor.classList.add("cursor");
-  cursor2.classList.add("cursor2");
 
   // input color...
 
@@ -330,18 +326,31 @@ function darklight1() {
   dark.classList.add("d-lg-none");
 }
 
-var cursor = document.querySelector("#cursor");
-var cursor2 = document.querySelector("#cursor2");
+const cursor = document.querySelector("#cursor");
 
-document.addEventListener("mousemove", function (e) {
+document.addEventListener("mousemove", (e) => {
   cursor.classList.remove("d-none");
-  cursor2.classList.remove("d-none");
+
+  const a = document.createElement("div");
+  a.setAttribute(
+    "class",
+    count == 0
+      ? "cursor2 d-sm-none d-md-none"
+      : "cursor2dark d-sm-none d-md-none"
+  );
+  document.querySelector("body").append(a);
 
   cursor.style.left = e.clientX + "px";
   cursor.style.top = e.clientY + "px";
-  cursor2.style.left = e.clientX + "px";
-  cursor2.style.top = e.clientY + "px";
+  a.style.left = e.clientX + "px";
+  a.style.top = e.clientY + "px";
+
+  setTimeout(() => {
+    a.remove();
+  }, 200);
 });
+
+// ...................................star animation.............................
 
 var apend = document.getElementById("home-bg");
 
@@ -372,7 +381,8 @@ function lines() {
   e.style.animationDuration = 2 + dur + "s";
 
   setTimeout(function () {
-    apend.removeChild(e);
+    // apend.removeChild(e);
+    e.remove();
   }, 5000);
 }
 setInterval(function () {
