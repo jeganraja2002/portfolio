@@ -408,8 +408,15 @@ html {
   /*		box-shadow: 0px 0px 10px #2fbf71, 0px 0px 20px #2fbf71, 0px 0px 30px #2fbf71;*/
   /*		text-shadow:0px 0px 30px #2fbf71;*/
   border-radius: 50px;
-  animation: ball 5s linear forwards;
+  /* animation: ball 5s linear forwards; */
   z-index: -3;
+}
+
+.left-R {
+  animation: ball 5s linear forwards;
+}
+.right-R {
+  animation: ball1 5s linear forwards;
 }
 
 .circles {
@@ -420,7 +427,7 @@ html {
   /*		box-shadow: 0px 0px 10px black, 0px 0px 20px black, 0px 0px 30px black;*/
   /*		text-shadow:0px 0px 30px black;*/
   border-radius: 50px;
-  animation: ball 5s linear forwards;
+  /* animation: ball 5s linear forwards; */
   z-index: -3;
 }
 
@@ -442,30 +449,6 @@ html {
     transform: translatey(-0vh) rotate(360deg);
     opacity: 0;
   }
-}
-
-.circle1 {
-  position: absolute;
-  bottom: 0;
-  /*		aspect-ratio: 1/1;*/
-  color: #2fbf71;
-  /*		box-shadow: 0px 0px 10px #2fbf71, 0px 0px 20px #2fbf71, 0px 0px 30px #2fbf71;*/
-  /*		text-shadow:0px 0px 30px #2fbf71;*/
-  border-radius: 50px;
-  animation: ball1 5s linear forwards;
-  z-index: -3;
-}
-
-.circles1 {
-  position: absolute;
-  bottom: 0;
-  /*		aspect-ratio: 1/1;*/
-  color: black;
-  /*		box-shadow: 0px 0px 10px #2fbf71, 0px 0px 20px #2fbf71, 0px 0px 30px #2fbf71;*/
-  /*		text-shadow:0px 0px 30px #2fbf71;*/
-  border-radius: 50px;
-  animation: ball1 5s linear forwards;
-  z-index: -3;
 }
 
 @keyframes ball1 {
@@ -1372,6 +1355,25 @@ html {
   padding-left: 15px;
   font-weight: bold;
 }
+.contact {
+  color: white;
+  transition: 1s !important;
+  text-decoration: none;
+}
+.contact2 {
+  color: black;
+  text-decoration: none;
+  transition: 1s !important;
+}
+
+.contact:hover {
+  text-decoration: underline;
+  transition: 0.3s !important;
+}
+.contact2:hover {
+  transition: 0.3s !important;
+  text-decoration: underline;
+}
 
 /* footer */
 
@@ -1570,4 +1572,27 @@ html {
   100% {
     transform: translateY(0px);
   }
+}
+
+.toast {
+  position: fixed;
+  bottom: 2%;
+  left: -50%;
+  pointer-events: none;
+  z-index: 10;
+  background-color: #2fbf70cc;
+  padding: 20px 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.toast2 {
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  z-index: 10;
+  background-color: #2fbf70cc;
+  padding: 20px 10px;
+  transition: all 0.3s;
+  pointer-events: none;
+  border-radius: 10px;
 }

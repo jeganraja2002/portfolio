@@ -86,7 +86,7 @@ light.classList.remove("d-lg-none");
 dark.classList.remove("d-lg-none");
 const gif = document.querySelector(".gif-img");
 gif.style.height = colors6.offsetHeight + "px";
-
+const allA = document.querySelectorAll("#anchor6");
 function darklight() {
   count++;
   window.navigator.vibrate([10]);
@@ -141,6 +141,10 @@ function darklight() {
   anchor3.classList.add("a1");
   anchor4.classList.add("a1");
   anchor5.classList.add("cv1");
+  allA.forEach((e) => {
+    e.classList.remove("contact");
+    e.classList.add("contact2");
+  });
 
   animation.classList.add("animation_iconr");
   animation1.classList.add("animation_iconr");
@@ -261,6 +265,10 @@ function darklight1() {
   anchor3.classList.remove("a1");
   anchor4.classList.remove("a1");
   anchor5.classList.remove("cv1");
+  allA.forEach((e) => {
+    e.classList.add("contact");
+    e.classList.remove("contact2");
+  });
 
   animation.classList.remove("animation_iconr");
   animation1.classList.remove("animation_iconr");
@@ -358,15 +366,17 @@ function lines() {
   let widthAnimation = document.querySelector("#AnimationWidth");
   let jegan = widthAnimation.offsetWidth;
 
-  const arr = ["circle", "circle1"];
-  const arr1 = ["circles", "circles1"];
+  const arr = ["left-R", "right-R"];
   let rotateCircle = Math.floor(Math.random() * arr.length);
-  let rotateCircle1 = Math.floor(Math.random() * arr1.length);
 
   let e = document.createElement("div");
   e.setAttribute(
     "class",
-    `bi bi-star-fill ${count == 0 ? arr[rotateCircle] : arr1[rotateCircle1]}`
+    `bi bi-star-fill ${
+      count == 0
+        ? `circle ${arr[rotateCircle]}`
+        : `circles ${arr[rotateCircle]}`
+    }`
   );
   apend.appendChild(e);
 
@@ -412,3 +422,38 @@ if (scroll > 150) {
   arrow.classList.add("up");
   arrow.classList.remove("up1");
 }
+
+const toast = document.querySelector("#toast");
+
+function Toast() {
+  toast.classList.remove("toast");
+  toast.classList.add("toast2");
+  setTimeout(() => {
+    toast.classList.add("toast");
+    toast.classList.remove("toast2");
+  }, 4000);
+}
+
+document.addEventListener("contextmenu", (e) => {
+  Toast();
+  e.preventDefault();
+});
+
+document.onkeydown = function (e) {
+  if (event.keyCode == 123) {
+    Toast();
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
+    Toast();
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)) {
+    Toast();
+    return false;
+  }
+  if (e.ctrlKey && e.keyCode == "U".charCodeAt(0)) {
+    Toast();
+    return false;
+  }
+};
