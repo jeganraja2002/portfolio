@@ -1577,7 +1577,7 @@ html {
 .toast {
   position: fixed;
   bottom: 2%;
-  left: -50%;
+  left: -100%;
   pointer-events: none;
   z-index: 10;
   background-color: #2fbf70cc;
