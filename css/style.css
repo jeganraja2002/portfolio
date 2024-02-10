@@ -537,47 +537,46 @@ html {
 }
 
 .motion-relative {
-  position: relative;
-  line-height: 24px;
   letter-spacing: 6px;
   text-align: center;
 }
 
-.motion-transparent {
+.name-relative {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  line-height: 24px;
   font-size: 30px;
 }
 
-.motion-absolute {
+.name-absolute {
   position: absolute;
   inset: 0;
-  left: 38px;
-  color: #2fbf71;
+  font-size: 30px;
+  color: red;
   overflow: hidden;
-  width: 0%;
+  color: #2fbf71;
+  filter: drop-shadow(0px 0px 10px #2fbf71);
   border-right: 3px solid #2fbf71;
   animation: right 4s infinite linear;
-  font-size: 30px;
-  height: 24px;
-  filter: drop-shadow(0px 0px 10px #2fbf71);
 }
-
 @keyframes right {
   0% {
     width: 0%;
   }
 
   49% {
-    width: 65%;
+    width: 100%;
     border-right: 3px solid #2fbf71;
   }
 
   50% {
-    width: 65%;
+    width: 100%;
     border-right: 3px solid white;
   }
 
   52% {
-    width: 65%;
+    width: 100%;
   }
 
   99% {
@@ -589,7 +588,6 @@ html {
     width: 0%;
   }
 }
-
 .developer {
   letter-spacing: 0px;
   font-size: 20px;
