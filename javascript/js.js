@@ -457,3 +457,7 @@ document.onkeydown = function (e) {
     return false;
   }
 };
+
+const age = document.querySelector(".age");
+const date = new Date().getFullYear();
+age.innerHTML = ": " + (date - 2002);
